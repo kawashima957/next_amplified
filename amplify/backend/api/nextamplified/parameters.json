@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "nextamplified",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authnextamplified4833336b",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2024-11-05T12:37:58.947Z"
+}
